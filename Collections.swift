@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Conditional {
+class Collections {
     
     func testArray() {
         var testArray: [String]

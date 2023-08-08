@@ -10,7 +10,7 @@ import Foundation
 func main() {
     let convertor = TypeConversion()
 //    let variable = Variable()
-    let conditional = Conditional()
+    let conditional = Collections()
     
     convertor.change(value: true, to: String.self)
     conditional.execute()
