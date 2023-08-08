@@ -31,6 +31,10 @@ class Variable {
                                         TEST
                                             STRING
                                   """
+    let num: Int = 0
+    let num1 = 1
+    var num2 = 2
+    let num3: Double = 3.481
     
 }
 
