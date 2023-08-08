@@ -9,10 +9,11 @@ import Foundation
 
 func main() {
     let convertor = TypeConversion()
-    let variable = Variable()
-//    let test = null
+//    let variable = Variable()
+    let conditional = Conditional()
+    
     convertor.change(value: true, to: String.self)
-    print(variable.multiLineString)
+    conditional.execute()
 }
 
 main()
