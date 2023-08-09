@@ -8,11 +8,13 @@
 import Foundation
 
 func main() {
-    let convertor = TypeConversion()
+//    let convertor = TypeConversion()
 //    let variable = Variable()
-    let conditional = Collections()
+//    let collections = Collections()
+    let conditional = Conditional()
     
-    convertor.change(value: true, to: String.self)
+//    convertor.change(value: true, to: String.self)
+//    collections.execute()
     conditional.execute()
 }
 

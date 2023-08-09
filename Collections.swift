@@ -12,6 +12,11 @@ class Collections {
     var sampleArray: [String]
     var sampleDict: [String: String]
     var sampleSet: Set<String>
+    enum SampleEnumGames {
+        case football
+        case vollyball
+        case basketball
+    }	
     
     init() {
         sampleArray = ["Hello", "World"] // As usual index based
@@ -54,6 +59,9 @@ class Collections {
         print("**==========** Set Start **==========**")
         print("Sample Set: \(sampleSet)")
         print("Looping statement work likes an Array")
+        let secondSet: Set<String> = ["D", "E", "F", "G"]
+        print("secondSet: \(secondSet)")
+        print("Union of both: \(sampleSet.union(secondSet))")
         print("**==========** Set End **==========**")
     }
     
@@ -64,9 +72,17 @@ class Collections {
         print("**==========** Dictionary End **==========**")
     }
     
+    func testEnum() {
+        var currentGame = SampleEnumGames.football
+        print("Current Game: \(currentGame)")
+        currentGame = .vollyball
+        print("Current Game: \(currentGame)")
+    }
+    
     func execute() {
         testArray();
         testSet()
         testDict()
+        testEnum()
     }
 }
