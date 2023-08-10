@@ -11,11 +11,13 @@ func main() {
 //    let convertor = TypeConversion()
 //    let variable = Variable()
 //    let collections = Collections()
-    let conditional = Conditional()
+//    let conditional = Conditional()
+    let controlFlow = ControlFlow()
     
 //    convertor.change(value: true, to: String.self)
 //    collections.execute()
-    conditional.execute()
+//    conditional.execute()
+    controlFlow.execute()
 }
 
 main()

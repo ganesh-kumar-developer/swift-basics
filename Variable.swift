@@ -18,6 +18,7 @@ class Variable {
     var firstVariable = 1
     // Explicit
     var secondValue: String = "Hello.!"
+    var sampleString = "this STRING HaVE 123 !@#$"
     
     // Constant
     let firstConstant = 10;
