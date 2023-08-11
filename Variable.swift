@@ -18,7 +18,16 @@ class Variable {
     var firstVariable = 1
     // Explicit
     var secondValue: String = "Hello.!"
-    var sampleString = "this STRING HaVE 123 !@#$"
+    var sampleString = "this STRING HaVE 123 !@#$" {
+        //value change action
+        willSet {
+            print("New value \(newValue)")
+        }
+        didSet {
+            print("Value changed \(sampleString)")
+            print("old value is \(oldValue)")
+        }
+    }
     
     // Constant
     let firstConstant = 10;
